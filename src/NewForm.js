@@ -134,7 +134,7 @@ class NewForm extends React.Component {
             <div className="container">
                 <form onSubmit={this.handleFormSubmit}>
         <div className="form-group">
-            <h1>Create a new album</h1>
+            <h1>Create a new product</h1>
             <FormInput id="productName" type="text" title = "Product Name" placeholder = "Product Name" onChange = {this.updateName}/>
             <FormInput id="productType" type="text" title = "Product Type" placeholder = "Product Type" onChange = {this.updateType}/>
             <FormNumber id="productShelflife" type="text" title = "Product Shelflife" placeholder = "0" step = "1" onChange = {this.updateShelflife}/>
