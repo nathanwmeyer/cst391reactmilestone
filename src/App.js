@@ -44,8 +44,8 @@ class App extends React.Component {
     }
 
     /**
-     * updateSingleProduct:
-     * prepares a product to be displayed by OneProduct and redirects to the EditForm page
+     * editSingleProduct:
+     * prepares a product to be displayed by EditForm and redirects to the EditForm page
      *
      * @param {*} id
      * @memberof App

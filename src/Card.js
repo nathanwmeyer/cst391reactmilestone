@@ -1,7 +1,8 @@
 import React from 'react';
 
 /**
- *
+ * Card:
+ * Display product information
  *
  * @class Card
  * @extends {React.Component}
